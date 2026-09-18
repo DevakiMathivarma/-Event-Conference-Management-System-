@@ -187,3 +187,7 @@
 2026-09-18 18:10:02,932 | INFO | event_conference_app | Creating refund : purchase 2
 2026-09-18 18:10:03,210 | INFO | event_conference_app | Refund created successfully : 1, amount 1575.00
 2026-09-18 18:10:27,301 | INFO | event_conference_app | Generating admin dashboard.
+2026-09-18 18:17:46,410 | INFO | event_conference_app | Application starting.
+2026-09-18 18:17:46,410 | INFO | event_conference_app | Checking default admin.
+2026-09-18 18:17:46,479 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 18:17:46,479 | INFO | event_conference_app | Application started successfully.
