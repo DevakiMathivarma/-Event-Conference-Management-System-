@@ -161,3 +161,29 @@
 2026-09-18 17:51:32,010 | INFO | event_conference_app | Checking default admin.
 2026-09-18 17:51:32,165 | INFO | event_conference_app | Default admin already exists.
 2026-09-18 17:51:32,166 | INFO | event_conference_app | Application started successfully.
+2026-09-18 18:06:24,270 | INFO | event_conference_app | Application starting.
+2026-09-18 18:06:24,270 | INFO | event_conference_app | Checking default admin.
+2026-09-18 18:06:24,369 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 18:06:24,369 | INFO | event_conference_app | Application started successfully.
+2026-09-18 18:06:55,593 | INFO | event_conference_app | Creating attendee : kavya.attendee@example.com
+2026-09-18 18:06:56,094 | INFO | event_conference_app | Attendee created successfully : 2
+2026-09-18 18:07:29,409 | INFO | event_conference_app | Login attempt : kavya.attendee@example.com
+2026-09-18 18:07:29,803 | INFO | event_conference_app | Login successful : kavya.attendee@example.com
+2026-09-18 18:07:42,025 | INFO | event_conference_app | Login attempt : kavya.attendee@example.com
+2026-09-18 18:07:42,355 | INFO | event_conference_app | Login successful : kavya.attendee@example.com
+2026-09-18 18:08:02,324 | INFO | event_conference_app | Creating registration : attendee 2, event 1
+2026-09-18 18:08:03,385 | INFO | event_conference_app | Registration created successfully : 2
+2026-09-18 18:08:36,716 | INFO | event_conference_app | Creating purchase : ticket 1, registration 2
+2026-09-18 18:08:36,949 | INFO | event_conference_app | Purchase created successfully : 2
+2026-09-18 18:09:02,677 | INFO | event_conference_app | Recording payment attempt : purchase 2
+2026-09-18 18:09:02,899 | INFO | event_conference_app | Payment attempt recorded successfully : 2
+2026-09-18 18:09:18,862 | INFO | event_conference_app | Confirming payment : 2, is_success=True
+2026-09-18 18:09:20,003 | INFO | event_conference_app | Ticket PDF generated : generated_files/tickets\ticket_2.pdf
+2026-09-18 18:09:20,045 | INFO | event_conference_app | QR code generated for registration 2 : generated_files/qr_codes\registration_2.png
+2026-09-18 18:09:20,045 | INFO | event_conference_app | Payment resolved successfully : 2, success=True
+2026-09-18 18:09:43,502 | WARNING | event_conference_app | HTTP 403 : Admin access required. : POST /api/v1/purchases/2/refund
+2026-09-18 18:09:54,853 | INFO | event_conference_app | Login attempt : admin@example.com
+2026-09-18 18:09:55,183 | INFO | event_conference_app | Login successful : admin@example.com
+2026-09-18 18:10:02,932 | INFO | event_conference_app | Creating refund : purchase 2
+2026-09-18 18:10:03,210 | INFO | event_conference_app | Refund created successfully : 1, amount 1575.00
+2026-09-18 18:10:27,301 | INFO | event_conference_app | Generating admin dashboard.
