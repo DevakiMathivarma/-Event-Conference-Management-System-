@@ -1,0 +1,163 @@
+2026-09-18 15:49:48,937 | INFO | event_conference_app | Application starting.
+2026-09-18 15:49:48,937 | INFO | event_conference_app | Checking default admin.
+2026-09-18 15:49:51,259 | INFO | event_conference_app | Default admin created successfully : admin@example.com
+2026-09-18 15:49:51,260 | INFO | event_conference_app | Application started successfully.
+2026-09-18 15:54:48,772 | INFO | event_conference_app | Login attempt : admin@example.com
+2026-09-18 15:54:51,356 | INFO | event_conference_app | Login successful : admin@example.com
+2026-09-18 15:55:46,282 | INFO | event_conference_app | Login attempt : admin@example.com
+2026-09-18 15:55:46,552 | INFO | event_conference_app | Login successful : admin@example.com
+2026-09-18 15:56:22,931 | INFO | event_conference_app | Refresh token requested.
+2026-09-18 15:56:22,960 | INFO | event_conference_app | Access token refreshed : admin@example.com
+2026-09-18 15:57:01,167 | INFO | event_conference_app | Registration started : priya.organizer@example.com, requested role=EVENT_ORGANIZER
+2026-09-18 15:57:02,465 | INFO | event_conference_app | User registered successfully : priya.organizer@example.com, role=EVENT_ORGANIZER
+2026-09-18 15:58:03,343 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 15:58:03,616 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 15:58:37,601 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 15:58:37,878 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 15:59:29,019 | WARNING | event_conference_app | HTTP 403 : Admin access required. : PUT /api/v1/auth/2/activation
+2026-09-18 15:59:37,094 | INFO | event_conference_app | Login attempt : admin@example.com
+2026-09-18 15:59:37,358 | INFO | event_conference_app | Login successful : admin@example.com
+2026-09-18 15:59:41,146 | INFO | event_conference_app | Setting user activation : 2, is_active=False
+2026-09-18 15:59:41,264 | INFO | event_conference_app | User activation updated successfully : 2, is_active=False
+2026-09-18 16:00:06,196 | INFO | event_conference_app | Setting user activation : 2, is_active=True
+2026-09-18 16:00:06,396 | INFO | event_conference_app | User activation updated successfully : 2, is_active=True
+2026-09-18 16:00:45,085 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 16:00:45,345 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 16:01:05,298 | INFO | event_conference_app | Creating event : TechConf 2026
+2026-09-18 16:01:05,413 | INFO | event_conference_app | Event created successfully : 1
+2026-09-18 16:02:06,427 | INFO | event_conference_app | Fetching events list.
+2026-09-18 16:02:40,319 | INFO | event_conference_app | Fetching event by id : 1
+2026-09-18 16:03:20,102 | INFO | event_conference_app | Updating event : 1
+2026-09-18 16:03:20,312 | INFO | event_conference_app | Event updated successfully : 1
+2026-09-18 16:03:56,088 | INFO | event_conference_app | Creating venue : Grand Convention Center
+2026-09-18 16:03:56,310 | INFO | event_conference_app | Venue created successfully : 1
+2026-09-18 16:04:46,055 | INFO | event_conference_app | Fetching venues list.
+2026-09-18 16:05:24,280 | INFO | event_conference_app | Creating hall : venue 1, Hall A
+2026-09-18 16:05:24,459 | INFO | event_conference_app | Hall created successfully : 1
+2026-09-18 16:06:33,466 | INFO | event_conference_app | Creating speaker : arjun.speaker@example.com
+2026-09-18 16:06:33,886 | INFO | event_conference_app | Speaker created successfully : 1
+2026-09-18 16:07:29,535 | INFO | event_conference_app | Fetching speakers list.
+2026-09-18 16:09:22,671 | INFO | event_conference_app | Updating speaker : 1
+2026-09-18 16:09:22,884 | INFO | event_conference_app | Speaker updated successfully : 1
+2026-09-18 16:10:46,590 | INFO | event_conference_app | Creating session : event 1, Building Resilient Microservices
+2026-09-18 16:10:46,841 | INFO | event_conference_app | Session created successfully : 1
+2026-09-18 17:06:32,784 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 17:06:33,307 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 17:07:28,832 | WARNING | event_conference_app | Validation failed : GET /api/v1/events/1/sessions : [{'type': 'date_from_datetime_parsing', 'loc': ('query', 'date'), 'msg': 'Input should be a valid date or datetime, invalid character in year', 'input': 'date=2026-11-10', 'ctx': {'error': 'invalid character in year'}}]
+2026-09-18 17:07:35,643 | INFO | event_conference_app | Fetching sessions list.
+2026-09-18 17:08:55,395 | INFO | event_conference_app | Updating session : 1
+2026-09-18 17:08:55,648 | INFO | event_conference_app | Session updated successfully : 1
+2026-09-18 17:10:04,461 | INFO | event_conference_app | Creating attendee : rahul.attendee@example.com
+2026-09-18 17:10:04,888 | INFO | event_conference_app | Attendee created successfully : 1
+2026-09-18 17:11:05,185 | INFO | event_conference_app | Login attempt : rahul.attendee@example.com
+2026-09-18 17:11:05,494 | INFO | event_conference_app | Login successful : rahul.attendee@example.com
+2026-09-18 17:11:38,667 | INFO | event_conference_app | Login attempt : rahul.attendee@example.com
+2026-09-18 17:11:38,935 | INFO | event_conference_app | Login successful : rahul.attendee@example.com
+2026-09-18 17:15:50,896 | INFO | event_conference_app | Updating attendee : 1
+2026-09-18 17:15:51,095 | INFO | event_conference_app | Attendee updated successfully : 1
+2026-09-18 17:16:57,412 | INFO | event_conference_app | Creating registration : attendee 1, event 1
+2026-09-18 17:16:59,421 | INFO | event_conference_app | Registration created successfully : 1
+2026-09-18 17:17:38,579 | INFO | event_conference_app | Fetching registrations list.
+2026-09-18 17:19:54,430 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 17:19:54,698 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 17:19:59,912 | INFO | event_conference_app | Creating ticket : event 1, type STANDARD
+2026-09-18 17:20:00,062 | INFO | event_conference_app | Ticket created successfully : 1
+2026-09-18 17:20:43,957 | INFO | event_conference_app | Creating ticket : event 1, type VIP
+2026-09-18 17:20:44,161 | INFO | event_conference_app | Ticket created successfully : 2
+2026-09-18 17:21:40,187 | INFO | event_conference_app | Updating ticket : 1
+2026-09-18 17:21:40,362 | INFO | event_conference_app | Ticket updated successfully : 1
+2026-09-18 17:22:35,480 | INFO | event_conference_app | Login attempt : rahul.attendee@example.com
+2026-09-18 17:22:35,799 | INFO | event_conference_app | Login successful : rahul.attendee@example.com
+2026-09-18 17:23:19,435 | INFO | event_conference_app | Creating purchase : ticket 1, registration 1
+2026-09-18 17:23:19,575 | INFO | event_conference_app | Purchase created successfully : 1
+2026-09-18 17:25:16,592 | INFO | event_conference_app | Recording payment attempt : purchase 1
+2026-09-18 17:25:16,806 | INFO | event_conference_app | Payment attempt recorded successfully : 1
+2026-09-18 17:26:18,891 | INFO | event_conference_app | Confirming payment : 1, is_success=True
+2026-09-18 17:26:19,609 | INFO | event_conference_app | Ticket PDF generated : generated_files/tickets\ticket_1.pdf
+2026-09-18 17:26:20,246 | INFO | event_conference_app | QR code generated for registration 1 : generated_files/qr_codes\registration_1.png
+2026-09-18 17:26:20,246 | INFO | event_conference_app | Payment resolved successfully : 1, success=True
+2026-09-18 17:27:19,516 | INFO | event_conference_app | Fetching payments list.
+2026-09-18 17:30:43,548 | INFO | event_conference_app | Creating session booking : attendee 1, session 1
+2026-09-18 17:30:43,728 | INFO | event_conference_app | Session booking created successfully : 1
+2026-09-18 17:33:14,379 | WARNING | event_conference_app | HTTP 404 : Not Found : GET /.well-known/appspecific/com.chrome.devtools.json
+2026-09-18 17:33:57,843 | INFO | event_conference_app | Login attempt : priya.organizer@example.com
+2026-09-18 17:33:58,159 | INFO | event_conference_app | Login successful : priya.organizer@example.com
+2026-09-18 17:34:08,111 | WARNING | event_conference_app | HTTP 404 : Not Found : GET /.well-known/appspecific/com.chrome.devtools.json
+2026-09-18 17:34:24,349 | INFO | event_conference_app | Checking in registration : 1, method MANUAL
+2026-09-18 17:34:24,524 | INFO | event_conference_app | Check-in successful : registration 1
+2026-09-18 17:38:55,581 | INFO | event_conference_app | Checking out registration : 1
+2026-09-18 17:38:56,228 | INFO | event_conference_app | Check-out successful : registration 1
+2026-09-18 17:40:11,684 | WARNING | event_conference_app | HTTP 403 : Attendee access required. : POST /api/v1/feedback
+2026-09-18 17:40:32,352 | INFO | event_conference_app | Login attempt : rahul.attendee@example.com
+2026-09-18 17:40:32,667 | INFO | event_conference_app | Login successful : rahul.attendee@example.com
+2026-09-18 17:41:50,809 | INFO | event_conference_app | Creating feedback : attendee 1, event 1
+2026-09-18 17:41:51,035 | INFO | event_conference_app | Feedback created successfully : 1
+2026-09-18 17:42:40,996 | INFO | event_conference_app | Fetching feedback list.
+2026-09-18 17:43:32,075 | INFO | event_conference_app | Fetching feedback list.
+2026-09-18 17:44:24,368 | WARNING | event_conference_app | HTTP 403 : Admin or Event Organizer access required. : POST /api/v1/certificates/generate/1
+2026-09-18 17:44:36,577 | INFO | event_conference_app | Login attempt : admin@example.com
+2026-09-18 17:44:36,894 | INFO | event_conference_app | Login successful : admin@example.com
+2026-09-18 17:44:41,703 | INFO | event_conference_app | Generating certificate : registration 1
+2026-09-18 17:44:41,848 | INFO | event_conference_app | Certificate PDF generated : generated_files/certificates\certificate_1.pdf
+2026-09-18 17:44:41,851 | INFO | event_conference_app | Certificate generated successfully : 1
+2026-09-18 17:46:53,324 | INFO | event_conference_app | Generating organizer dashboard for event : 1
+2026-09-18 17:48:56,706 | INFO | event_conference_app | Application starting.
+2026-09-18 17:48:56,707 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:48:56,869 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:48:56,870 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:49:01,444 | INFO | event_conference_app | Application starting.
+2026-09-18 17:49:01,444 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:49:01,535 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:49:01,535 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:49:19,488 | INFO | event_conference_app | Application starting.
+2026-09-18 17:49:19,489 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:49:19,590 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:49:19,591 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:02,006 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:02,007 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:02,242 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:02,243 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:12,783 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:12,784 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:12,944 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:12,946 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:31,326 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:31,326 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:31,446 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:31,447 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:40,259 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:40,259 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:40,439 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:40,439 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:48,398 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:48,401 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:48,563 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:48,564 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:50:57,406 | INFO | event_conference_app | Application starting.
+2026-09-18 17:50:57,406 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:50:57,619 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:50:57,620 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:03,404 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:03,404 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:03,480 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:03,481 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:09,229 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:09,230 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:09,307 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:09,308 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:15,412 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:15,421 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:15,817 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:15,817 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:20,532 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:20,532 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:20,636 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:20,637 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:26,070 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:26,070 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:26,208 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:26,209 | INFO | event_conference_app | Application started successfully.
+2026-09-18 17:51:32,010 | INFO | event_conference_app | Application starting.
+2026-09-18 17:51:32,010 | INFO | event_conference_app | Checking default admin.
+2026-09-18 17:51:32,165 | INFO | event_conference_app | Default admin already exists.
+2026-09-18 17:51:32,166 | INFO | event_conference_app | Application started successfully.
